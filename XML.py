@@ -1,0 +1,11 @@
+username = input()
+password = input()
+name, age, bmi = input().split(' ')
+bmi = float(bmi)
+print("<user>")
+print("\t<combo>"+username+":"+password+"</combo>")
+print("\t<name>"+name+"</name>")
+print("\t<age>"+age+"</age>")
+print("\t<bmi>"+"%.3f" % bmi+"</bmi>")
+print("</user>")
+
